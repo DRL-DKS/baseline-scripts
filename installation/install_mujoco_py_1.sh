@@ -1,5 +1,5 @@
 #!/bin/bash 
-echo "installing mujoco-py from source"
+echo "installing mujoco-py from source part 1"
 export conda_env_name=rlbase
 source ~/anaconda3/etc/profile.d/conda.sh
 # conda init bash
@@ -14,6 +14,9 @@ cd mujoco-py
 pip install -r requirements.txt
 pip install -r requirements.dev.txt
 pip install -e . --no-cache
+cd ..
+rm -rf mujoco-py
 echo "################"
 echo "REBOOT IS NEEDED"
+
 
