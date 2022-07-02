@@ -25,7 +25,7 @@ Test with some scripts in ```testing_installation/```
 ```
 4) Finnally install stable-baselines3 (read more at https://github.com/DLR-RM/stable-baselines3)
 ```
-install_stable-baselines3_all
+./install_stable-baselines3_all
 ```
 5) Enjoy a full stable-baselines3 installation :snake: 
 
