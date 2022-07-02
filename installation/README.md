@@ -17,7 +17,8 @@ Reboot computer and test (follow instructions at the end of the execution)
 ``` 
 ./install_mujoco_py_2
 ```
-Test with some scripts in testing_installation/
+Test with some scripts in ```testing_installation/```
+
 3) Install gym all (read more at https://github.com/openai/gym)
 ```
 ./install_gym_all
