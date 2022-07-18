@@ -11,8 +11,7 @@ tar -xf $mujoco_version-linux-x86_64.tar.gz
 mv $mujoco_version ~/.mujoco/
 echo "adding pointers of $mujoco_version to bashrc"
 echo "" >> ~/.bashrc
-echo "export LD_LIBRARY_PATH=/home/$USERNAME/.mujoco/$mujoco_version/bin" >> ~/.bashrc
-echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia" >> ~/.bashrc
+echo "export LD_LIBRARY_PATH=/home/$USERNAME/.mujoco/$mujoco_version/bin:/usr/lib/nvidia" >> ~/.bashrc
 echo "export PATH="$LD_LIBRARY_PATH:$PATH"" >> ~/.bashrc
 echo "export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so" >> ~/.bashrc
 source ~/.bashrc

@@ -1,4 +1,5 @@
 echo "installing gym all"
+# https://installati.one/ubuntu/20.04/swig/ NEED TO INSTALL SWIG
 export conda_env_name=rlbase
 source ~/anaconda3/etc/profile.d/conda.sh
 # conda init bash
